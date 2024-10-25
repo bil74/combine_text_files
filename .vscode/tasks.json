@@ -1,0 +1,63 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		
+
+		{
+			"type": "cppbuild",
+			//"label": "C/C++: gcc.exe build active file 32bit",
+			"label": "Win32_task_rel",
+			"command": "gcc.exe",
+			"args": [
+				"-O2",
+				"-m32",
+				"-pedantic",
+				//"${file}",
+				"main.c",
+				"-m32",
+				"-o",
+				//"${fileDirname}\\32bit\\${fileBasenameNoExtension}.exe"
+				"${workspaceFolder}\\rel.exe"
+				//"${fileDirname}\\newpos.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "gcc.exe"
+		},
+
+
+
+		{
+			"type": "cppbuild",
+			//"label": "C/C++: gcc.exe build active file 32bit",
+			"label": "Win32_task_dbg",
+			"command": "gcc.exe",
+			"args": [
+				"-g",
+				"-m32",
+				"-pedantic",
+				//"${file}",
+				"main.c",
+				"-m32",
+				"-o",
+				//"${fileDirname}\\32bit\\${fileBasenameNoExtension}.exe"
+				"${workspaceFolder}\\dbg.exe"
+				//"${fileDirname}\\newpos.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "gcc.exe"
+		}
+
+	]
+}

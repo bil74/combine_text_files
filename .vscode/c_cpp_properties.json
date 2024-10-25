@@ -1,0 +1,77 @@
+{
+    "configurations": [
+        /*
+        {
+            "name": "Win64_conf",
+            "includePath": [
+                //"additional/paths",
+                "C:/programs/libraries/cd-5.13_Win64_dll16_lib/include",
+                "C:/programs/libraries/iup-3.29_Win64_dll16_lib/include",
+                "${workspaceFolder}",
+                "${default}"
+            ],
+            "defines": [
+                "${default}",
+                "WINCOMPILE",
+                "DOZE64"
+            ],
+            "macFrameworkPath": [
+                //"additional/paths",
+                "${default}"
+            ],
+            "forcedInclude": [
+                //"additional/paths",
+                "${default}"
+            ],
+            "compileCommands": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}",
+                "path": [
+                    //"additional/paths",
+                    "${default}"
+                ]
+            },
+            "intelliSenseMode": "${default}",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "compilerPath": "${default}"
+        },
+        */
+        {
+            "name": "Win32_conf",
+            "includePath": [
+                //"additional/paths",
+                "C:\\programs\\tdm-gcc\\10-3-0\\x86_64-w64-mingw32\\include",
+                "${workspaceFolder}",
+                "${default}"
+            ],
+            "defines": [
+                "${default}",
+            ],
+            "macFrameworkPath": [
+                //"additional/paths",
+                "${default}"
+            ],
+            "forcedInclude": [
+                //"additional/paths",
+                "${default}"
+            ],
+            "compileCommands": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}",
+                "path": [
+                    //"additional/paths",
+                    "${default}"
+                ]
+            },
+            "intelliSenseMode": "${default}",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "compilerPath": "${default}"
+        }
+
+    ],
+    "version": 4
+}
