@@ -42,7 +42,7 @@
             "name": "Win32_conf",
             "includePath": [
                 //"additional/paths",
-                "C:\\programs\\tdm-gcc\\10-3-0\\x86_64-w64-mingw32\\include",
+                //"C:\\programs\\tdm-gcc\\10-3-0\\x86_64-w64-mingw32\\include",
                 "${workspaceFolder}",
                 "${default}"
             ],
